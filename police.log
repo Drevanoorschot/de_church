@@ -1,0 +1,1221 @@
+
+
+
+materialPath: F:\Games\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\police.vmf
+Map revision 1
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\police.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2311 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3 texinfos to 3
+Reduced 1 texdatas to 1 (23 bytes to 23)
+Writing F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\police.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+reading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.prt
+   2 portalclusters
+   1 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:24  compressed from 32
+writing f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+23 faces
+21845 square feet [3145728.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+23 patches before subdivision
+3481 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 388674, max 273
+transfer lists:   3.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0006 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                  6/8192           72/98304    ( 0.1%) 
+brushsides              36/65536         288/524288   ( 0.1%) 
+planes                  38/65536         760/1310720  ( 0.1%) 
+vertexes                45/65536         540/786432   ( 0.1%) 
+nodes                   12/65536         384/2097152  ( 0.0%) 
+texinfos                 3/12288         216/884736   ( 0.0%) 
+texdata                  1/2048           32/65536    ( 0.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   23/65536        1288/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          23/0              92/0        ( 0.0%) 
+leaves                  14/65536         448/2097152  ( 0.0%) 
+leaffaces               26/65536          52/131072   ( 0.0%) 
+leafbrushes             15/65536          30/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              122/512000        488/2048000  ( 0.0%) 
+edges                   74/256000        296/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      107292/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          24/16777216 ( 0.0%) 
+entdata               [variable]         465/393216   ( 0.1%) 
+LDR ambient table       14/65536          56/262144   ( 0.0%) 
+HDR ambient table       14/65536          56/262144   ( 0.0%) 
+LDR leaf ambient         2/65536          56/1835008  ( 0.0%) 
+HDR leaf ambient        14/65536         392/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74422/0        ( 0.0%) 
+physics               [variable]        2311/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 3c
+
+Total triangle count: 52
+Writing f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+0 seconds elapsed
+
+
+
+materialPath: F:\Games\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\police.vmf
+Map revision 2
+Patching WVT material: maps/police/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\police.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2694 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 9 texinfos to 4
+Reduced 3 texdatas to 2 (82 bytes to 61)
+Writing F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\police.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+reading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.prt
+  32 portalclusters
+  56 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1024
+Average clusters visible: 32
+Building PAS...
+Average clusters audible: 32
+visdatasize:516  compressed from 512
+writing f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+282 faces
+292526 square feet [42123776.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+282 patches before subdivision
+15722 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1761071, max 376
+transfer lists:  13.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0052 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                  7/8192           84/98304    ( 0.1%) 
+brushsides              42/65536         336/524288   ( 0.1%) 
+planes                  58/65536        1160/1310720  ( 0.1%) 
+vertexes               345/65536        4140/786432   ( 0.5%) 
+nodes                  112/65536        3584/2097152  ( 0.2%) 
+texinfos                 4/12288         288/884736   ( 0.0%) 
+texdata                  2/2048           64/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  282/65536       15792/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               11/65536         616/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         282/0            1128/0        ( 0.0%) 
+leaves                 114/65536        3648/2097152  ( 0.2%) 
+leaffaces              354/65536         708/131072   ( 0.5%) 
+leafbrushes             68/65536         136/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1252/512000       5008/2048000  ( 0.2%) 
+edges                  641/256000       2564/1024000  ( 0.3%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      916344/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         516/16777216 ( 0.0%) 
+entdata               [variable]         470/393216   ( 0.1%) 
+LDR ambient table      114/65536         456/262144   ( 0.2%) 
+HDR ambient table      114/65536         456/262144   ( 0.2%) 
+LDR leaf ambient        32/65536         896/1835008  ( 0.0%) 
+HDR leaf ambient       114/65536        3192/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74751/0        ( 0.0%) 
+physics               [variable]        2694/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 3c
+
+Total triangle count: 644
+Writing f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+0 seconds elapsed
+
+
+
+materialPath: F:\Games\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\police.vmf
+Map revision 4
+Patching WVT material: maps/police/dev/dev_blendmeasure2_wvt_patch
+Patching WVT material: maps/police/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\police.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6210 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 18 texinfos to 8
+Reduced 6 texdatas to 4 (177 bytes to 134)
+Writing F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\police.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+reading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.prt
+  46 portalclusters
+  96 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 2108
+Average clusters visible: 45
+Building PAS...
+Average clusters audible: 46
+visdatasize:924  compressed from 736
+writing f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+272 faces
+296699 square feet [42724736.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+272 patches before subdivision
+11986 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 524350, max 323
+transfer lists:   4.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0047 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 19/8192          228/98304    ( 0.2%) 
+brushsides             114/65536         912/524288   ( 0.2%) 
+planes                  82/65536        1640/1310720  ( 0.1%) 
+vertexes               378/65536        4536/786432   ( 0.6%) 
+nodes                  146/65536        4672/2097152  ( 0.2%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  272/65536       15232/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               39/65536        2184/3670016  ( 0.1%) 
+facebrushes             66/0             132/0        ( 0.0%) 
+facebrushlists         272/0            1088/0        ( 0.0%) 
+leaves                 148/65536        4736/2097152  ( 0.2%) 
+leaffaces              336/65536         672/131072   ( 0.5%) 
+leafbrushes            106/65536         212/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1360/512000       5440/2048000  ( 0.3%) 
+edges                  726/256000       2904/1024000  ( 0.3%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             15/32768         150/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           240/65536         480/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      679804/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         924/16777216 ( 0.0%) 
+entdata               [variable]         469/393216   ( 0.1%) 
+LDR ambient table      148/65536         592/262144   ( 0.2%) 
+HDR ambient table      148/65536         592/262144   ( 0.2%) 
+LDR leaf ambient        46/65536        1288/1835008  ( 0.1%) 
+HDR leaf ambient       148/65536        4144/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75076/0        ( 0.0%) 
+physics               [variable]        6210/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 3c
+
+Total triangle count: 660
+Writing f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+0 seconds elapsed
+
+
+
+materialPath: F:\Games\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\police.vmf
+Map revision 5
+Patching WVT material: maps/police/dev/dev_blendmeasure2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\police.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (9938 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 7
+Reduced 4 texdatas to 3 (113 bytes to 91)
+Writing F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\police.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+reading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.prt
+  63 portalclusters
+ 143 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 4 visible clusters (0.00%)
+Total clusters visible: 3635
+Average clusters visible: 57
+Building PAS...
+Average clusters audible: 63
+visdatasize:1520  compressed from 1008
+writing f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+306 faces
+326723 square feet [47048204.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+306 patches before subdivision
+15262 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 473724, max 306
+transfer lists:   3.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0043 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 29/8192          348/98304    ( 0.4%) 
+brushsides             178/65536        1424/524288   ( 0.3%) 
+planes                 122/65536        2440/1310720  ( 0.2%) 
+vertexes               471/65536        5652/786432   ( 0.7%) 
+nodes                  189/65536        6048/2097152  ( 0.3%) 
+texinfos                 7/12288         504/884736   ( 0.1%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  306/65536       17136/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               76/65536        4256/3670016  ( 0.1%) 
+facebrushes             64/0             128/0        ( 0.0%) 
+facebrushlists         306/0            1224/0        ( 0.0%) 
+leaves                 191/65536        6112/2097152  ( 0.3%) 
+leaffaces              340/65536         680/131072   ( 0.5%) 
+leafbrushes            146/65536         292/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1695/512000       6780/2048000  ( 0.3%) 
+edges                  924/256000       3696/1024000  ( 0.4%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             20/32768         200/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           252/65536         504/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      766240/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1520/16777216 ( 0.0%) 
+entdata               [variable]         469/393216   ( 0.1%) 
+LDR ambient table      191/65536         764/262144   ( 0.3%) 
+HDR ambient table      191/65536         764/262144   ( 0.3%) 
+LDR leaf ambient        63/65536        1764/1835008  ( 0.1%) 
+HDR leaf ambient       191/65536        5348/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74747/0        ( 0.0%) 
+physics               [variable]        9938/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 3c
+
+Total triangle count: 778
+Writing f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+0 seconds elapsed
+
+
+
+materialPath: F:\Games\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\police.vmf
+Map revision 6
+Patching WVT material: maps/police/dev/dev_blendmeasure2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\police.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (11346 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 26 texinfos to 12
+Reduced 4 texdatas to 3 (113 bytes to 91)
+Writing F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\police.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+reading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.prt
+  74 portalclusters
+ 179 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3 visible clusters (0.00%)
+Total clusters visible: 4417
+Average clusters visible: 59
+Building PAS...
+Average clusters audible: 74
+visdatasize:2085  compressed from 2368
+writing f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+356 faces
+344225 square feet [49568532.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+356 patches before subdivision
+15930 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 534523, max 408
+transfer lists:   4.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0048 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 33/8192          396/98304    ( 0.4%) 
+brushsides             216/65536        1728/524288   ( 0.3%) 
+planes                 174/65536        3480/1310720  ( 0.3%) 
+vertexes               540/65536        6480/786432   ( 0.8%) 
+nodes                  215/65536        6880/2097152  ( 0.3%) 
+texinfos                12/12288         864/884736   ( 0.1%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  356/65536       19936/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               82/65536        4592/3670016  ( 0.1%) 
+facebrushes             58/0             116/0        ( 0.0%) 
+facebrushlists         356/0            1424/0        ( 0.0%) 
+leaves                 217/65536        6944/2097152  ( 0.3%) 
+leaffaces              387/65536         774/131072   ( 0.6%) 
+leafbrushes            183/65536         366/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1944/512000       7776/2048000  ( 0.4%) 
+edges                 1057/256000       4228/1024000  ( 0.4%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             18/32768         180/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           228/65536         456/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      873788/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2085/16777216 ( 0.0%) 
+entdata               [variable]         469/393216   ( 0.1%) 
+LDR ambient table      217/65536         868/262144   ( 0.3%) 
+HDR ambient table      217/65536         868/262144   ( 0.3%) 
+LDR leaf ambient        74/65536        2072/1835008  ( 0.1%) 
+HDR leaf ambient       217/65536        6076/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74747/0        ( 0.0%) 
+physics               [variable]       11346/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 3c
+
+Total triangle count: 904
+Writing f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+0 seconds elapsed
+
+
+
+materialPath: F:\Games\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\police.vmf
+Map revision 7
+Patching WVT material: maps/police/dev/dev_blendmeasure2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\police.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (11362 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 14
+Reduced 4 texdatas to 3 (113 bytes to 91)
+Writing F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\police.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+reading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.prt
+  80 portalclusters
+ 195 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 12 visible clusters (0.00%)
+Total clusters visible: 5112
+Average clusters visible: 63
+Building PAS...
+Average clusters audible: 80
+visdatasize:2255  compressed from 2560
+writing f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+343 faces
+338197 square feet [48700480.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+343 patches before subdivision
+15409 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 500497, max 352
+transfer lists:   3.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0051 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 33/8192          396/98304    ( 0.4%) 
+brushsides             216/65536        1728/524288   ( 0.3%) 
+planes                 176/65536        3520/1310720  ( 0.3%) 
+vertexes               516/65536        6192/786432   ( 0.8%) 
+nodes                  221/65536        7072/2097152  ( 0.3%) 
+texinfos                14/12288        1008/884736   ( 0.1%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  343/65536       19208/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               82/65536        4592/3670016  ( 0.1%) 
+facebrushes             80/0             160/0        ( 0.0%) 
+facebrushlists         343/0            1372/0        ( 0.0%) 
+leaves                 223/65536        7136/2097152  ( 0.3%) 
+leaffaces              379/65536         758/131072   ( 0.6%) 
+leafbrushes            180/65536         360/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1868/512000       7472/2048000  ( 0.4%) 
+edges                 1019/256000       4076/1024000  ( 0.4%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             11/32768         110/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           141/65536         282/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      843908/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2255/16777216 ( 0.0%) 
+entdata               [variable]         469/393216   ( 0.1%) 
+LDR ambient table      223/65536         892/262144   ( 0.3%) 
+HDR ambient table      223/65536         892/262144   ( 0.3%) 
+LDR leaf ambient        80/65536        2240/1835008  ( 0.1%) 
+HDR leaf ambient       223/65536        6244/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74747/0        ( 0.0%) 
+physics               [variable]       11362/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 3c
+
+Total triangle count: 854
+Writing f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+0 seconds elapsed
+
+
+
+materialPath: F:\Games\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\police.vmf
+Map revision 8
+Patching WVT material: maps/police/dev/dev_blendmeasure2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\police.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (11754 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 33 texinfos to 17
+Reduced 5 texdatas to 4 (129 bytes to 107)
+Writing F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\police.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+reading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.prt
+  85 portalclusters
+ 217 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2 visible clusters (0.00%)
+Total clusters visible: 5669
+Average clusters visible: 66
+Building PAS...
+Average clusters audible: 85
+visdatasize:2568  compressed from 2720
+writing f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+357 faces
+341584 square feet [49188200.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+357 patches before subdivision
+15525 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 522627, max 333
+transfer lists:   4.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0058 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 34/8192          408/98304    ( 0.4%) 
+brushsides             222/65536        1776/524288   ( 0.3%) 
+planes                 184/65536        3680/1310720  ( 0.3%) 
+vertexes               540/65536        6480/786432   ( 0.8%) 
+nodes                  225/65536        7200/2097152  ( 0.3%) 
+texinfos                17/12288        1224/884736   ( 0.1%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  357/65536       19992/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               84/65536        4704/3670016  ( 0.1%) 
+facebrushes             87/0             174/0        ( 0.0%) 
+facebrushlists         357/0            1428/0        ( 0.0%) 
+leaves                 227/65536        7264/2097152  ( 0.3%) 
+leaffaces              386/65536         772/131072   ( 0.6%) 
+leafbrushes            184/65536         368/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1948/512000       7792/2048000  ( 0.4%) 
+edges                 1063/256000       4252/1024000  ( 0.4%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             14/32768         140/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           183/65536         366/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      845492/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2568/16777216 ( 0.0%) 
+entdata               [variable]         469/393216   ( 0.1%) 
+LDR ambient table      227/65536         908/262144   ( 0.3%) 
+HDR ambient table      227/65536         908/262144   ( 0.3%) 
+LDR leaf ambient        85/65536        2380/1835008  ( 0.1%) 
+HDR leaf ambient       227/65536        6356/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74747/0        ( 0.0%) 
+physics               [variable]       11754/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 3c
+
+Total triangle count: 898
+Writing f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+1 second elapsed
+
+
+
+materialPath: F:\Games\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\police.vmf
+Map revision 9
+Patching WVT material: maps/police/dev/dev_blendmeasure2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\police.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (21602 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 150 texinfos to 50
+Reduced 4 texdatas to 3 (113 bytes to 91)
+Writing F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\police.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+reading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.prt
+ 149 portalclusters
+ 364 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 63 visible clusters (0.00%)
+Total clusters visible: 11460
+Average clusters visible: 76
+Building PAS...
+Average clusters audible: 147
+visdatasize:6496  compressed from 7152
+writing f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+629 faces
+376823 square feet [54262584.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+629 patches before subdivision
+22655 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1106035, max 483
+transfer lists:   8.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0061 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 61/8192          732/98304    ( 0.7%) 
+brushsides             384/65536        3072/524288   ( 0.6%) 
+planes                 298/65536        5960/1310720  ( 0.5%) 
+vertexes               904/65536       10848/786432   ( 1.4%) 
+nodes                  365/65536       11680/2097152  ( 0.6%) 
+texinfos                50/12288        3600/884736   ( 0.4%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  629/65536       35224/3670016  ( 1.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              194/65536       10864/3670016  ( 0.3%) 
+facebrushes             83/0             166/0        ( 0.0%) 
+facebrushlists         629/0            2516/0        ( 0.0%) 
+leaves                 367/65536       11744/2097152  ( 0.6%) 
+leaffaces              673/65536        1346/131072   ( 1.0%) 
+leafbrushes            278/65536         556/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3716/512000      14864/2048000  ( 0.7%) 
+edges                 2048/256000       8192/1024000  ( 0.8%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             23/32768         230/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           348/65536         696/131072   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1089108/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        6496/16777216 ( 0.0%) 
+entdata               [variable]         469/393216   ( 0.1%) 
+LDR ambient table      367/65536        1468/262144   ( 0.6%) 
+HDR ambient table      367/65536        1468/262144   ( 0.6%) 
+LDR leaf ambient       149/65536        4172/1835008  ( 0.2%) 
+HDR leaf ambient       367/65536       10276/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74747/0        ( 0.0%) 
+physics               [variable]       21602/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 3c
+
+Total triangle count: 1682
+Writing f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+1 second elapsed
+
+
+
+materialPath: F:\Games\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\police.vmf
+Map revision 10
+Patching WVT material: maps/police/dev/dev_blendmeasure2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\police.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (22370 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 152 texinfos to 51
+Reduced 4 texdatas to 3 (113 bytes to 91)
+Writing F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\police.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+reading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.prt
+ 136 portalclusters
+ 343 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 24 visible clusters (0.00%)
+Total clusters visible: 11806
+Average clusters visible: 86
+Building PAS...
+Average clusters audible: 135
+visdatasize:5692  compressed from 6528
+writing f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+542 faces
+361835 square feet [52104304.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+542 patches before subdivision
+21338 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1013393, max 372
+transfer lists:   7.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0057 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 63/8192          756/98304    ( 0.8%) 
+brushsides             398/65536        3184/524288   ( 0.6%) 
+planes                 312/65536        6240/1310720  ( 0.5%) 
+vertexes               838/65536       10056/786432   ( 1.3%) 
+nodes                  365/65536       11680/2097152  ( 0.6%) 
+texinfos                51/12288        3672/884736   ( 0.4%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  542/65536       30352/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              159/65536        8904/3670016  ( 0.2%) 
+facebrushes             74/0             148/0        ( 0.0%) 
+facebrushlists         542/0            2168/0        ( 0.0%) 
+leaves                 367/65536       11744/2097152  ( 0.6%) 
+leaffaces              612/65536        1224/131072   ( 0.9%) 
+leafbrushes            290/65536         580/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3168/512000      12672/2048000  ( 0.6%) 
+edges                 1737/256000       6948/1024000  ( 0.7%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             32/32768         320/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           438/65536         876/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1008768/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        5692/16777216 ( 0.0%) 
+entdata               [variable]         470/393216   ( 0.1%) 
+LDR ambient table      367/65536        1468/262144   ( 0.6%) 
+HDR ambient table      367/65536        1468/262144   ( 0.6%) 
+LDR leaf ambient       136/65536        3808/1835008  ( 0.2%) 
+HDR leaf ambient       367/65536       10276/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74747/0        ( 0.0%) 
+physics               [variable]       22370/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 3c
+
+Total triangle count: 1448
+Writing f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\police.bsp
+1 second elapsed
+
+
+
+materialPath: F:\Games\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\de_church\police.vmf
+Map revision 11
+Patching WVT material: maps/police/asphalt/hr_c/hr_asphalt_gravel_blend_001_wvt_patch
+Patching WVT material: maps/police/dev/dev_blendmeasure2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\de_church\police.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (22777 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 158 texinfos to 54
+Reduced 6 texdatas to 4 (217 bytes to 154)
+Writing F:\Games\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\de_church\police.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\de_church\police.bsp
+reading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\de_church\police.prt
+ 140 portalclusters
+ 351 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 25 visible clusters (0.00%)
+Total clusters visible: 12447
+Average clusters visible: 88
+Building PAS...
+Average clusters audible: 139
+visdatasize:6130  compressed from 6720
+writing f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\de_church\police.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\de_church\police.bsp
+547 faces
+361887 square feet [52111744.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+547 patches before subdivision
+21409 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1023070, max 372
+transfer lists:   7.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0060 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 64/8192          768/98304    ( 0.8%) 
+brushsides             404/65536        3232/524288   ( 0.6%) 
+planes                 320/65536        6400/1310720  ( 0.5%) 
+vertexes               852/65536       10224/786432   ( 1.3%) 
+nodes                  372/65536       11904/2097152  ( 0.6%) 
+texinfos                54/12288        3888/884736   ( 0.4%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  547/65536       30632/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              164/65536        9184/3670016  ( 0.3%) 
+facebrushes             74/0             148/0        ( 0.0%) 
+facebrushlists         547/0            2188/0        ( 0.0%) 
+leaves                 374/65536       11968/2097152  ( 0.6%) 
+leaffaces              634/65536        1268/131072   ( 1.0%) 
+leafbrushes            294/65536         588/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3218/512000      12872/2048000  ( 0.6%) 
+edges                 1764/256000       7056/1024000  ( 0.7%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             34/32768         340/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           471/65536         942/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1009820/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        6130/16777216 ( 0.0%) 
+entdata               [variable]         470/393216   ( 0.1%) 
+LDR ambient table      374/65536        1496/262144   ( 0.6%) 
+HDR ambient table      374/65536        1496/262144   ( 0.6%) 
+LDR leaf ambient       140/65536        3920/1835008  ( 0.2%) 
+HDR leaf ambient       374/65536       10472/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75275/0        ( 0.0%) 
+physics               [variable]       22777/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 3c
+
+Total triangle count: 1468
+Writing f:\games\steamapps\common\counter-strike global offensive\sdk_content\maps\de_church\police.bsp
+1 second elapsed
